@@ -1,3 +1,4 @@
+
 let form = document.querySelector('form');
 let textNode = document.getElementById('textNode');
 
