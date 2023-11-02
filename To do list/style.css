@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background:#D6CEDC;
+}
+.mainBox{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background: linear-gradient(	#f7cac9,#dec2cb,#c5b9cd,#abb1cf,#92a8d1);
+    border-radius: 10px;
+}
+.mainBox .top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainBox .top .topLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBox .top .topLeft input{
+    width: 270px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.mainBox .top .topLeft button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.mainBox .top .topRight img{
+    width: 100px;
+    height: auto;
+}
+#textNode{
+    cursor: pointer;
+}
+#textNode li{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#textNode li div{
+    text-decoration: underline;
+    margin: 0 10px;
+    cursor: auto;
+}
