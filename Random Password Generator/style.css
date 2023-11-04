@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #073763;
+    color: #d8d2c3;
+}
+.mainBox{
+    margin-left: 150px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: fit-content;
+    padding-bottom: 10px;
+    margin: 10px 0 20px 0;
+    color: 	#008744;
+    border-radius: 0;
+    border-bottom: 2px solid#008744;
+}
+input{
+    width: 150px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    background-color: #d8d2c3;
+    color: #073763;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#displayPass{
+    padding: 15px 20px;
+    background-color: #d8d2c3;
+    color: #073763;
+}
+i{
+    align-self: flex-end;
+    color: #073763;
+    font-size: 20px;
+    transform: translate(-15px, -33px);
+    cursor: pointer;
+}
+#generate{
+    width: 180px;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #d8d2c3;
+    background-color: #008744;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    .mainBox{
+        margin-left: 0;
+        padding: 20px;
+    }
+    input{
+        width: 120px;
+    }
+    #generate{
+        width: 1auto;
+    padding: 15px 10px;
+    }
+}
