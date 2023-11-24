@@ -18,7 +18,7 @@ function generatePassword(e) {
     let password = '';
     
     for (let i = 0; i < passLength; i++) {
-        let index = Math.floor(Math.random() * elements.length);
+        let index = Math.floor(Math.random() * elements.length + 1);
         password += elements[index];
     }
 
